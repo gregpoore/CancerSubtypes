@@ -173,7 +173,7 @@ survAnalysis<-function(mainTitle="Survival Analysis",time,status,group,distanceM
   plot(surv, lty = 1,col=2:(clusterNum+1),lwd=2,xscale=30,xlab="Survival time (Months)", ylab="Survival probability",
        main= title,font.main=4,cex.main=0.9)
   
-  legend(x=par("usr")[2]*0.6,y=par("usr")[4]*0.95,x.intersp=0.05,y.intersp=0.3, paste("Subtpye", 1:clusterNum),
+  legend(x=par("usr")[2]*0.6,y=par("usr")[4]*0.95,x.intersp=0.05,y.intersp=0.3, paste("Subtype", 1:clusterNum),
          lty=1,lwd=3, cex=0.8,text.font=4,text.col=2:(clusterNum+1), bty="n",col=2:(clusterNum+1),
          seg.len = 0.3)
   
